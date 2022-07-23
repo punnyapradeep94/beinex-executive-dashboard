@@ -1,0 +1,9 @@
+<div id="mySidebar" class="sidebar" [ngClass]="{'hide-sidebar': hideSideBar}">
+  <div class="expand" (click)="hideSideBar = !hideSideBar" *ngIf="hideSideBar">
+    <i class="fa fa-angle-right" aria-hidden="true"></i>
+  </div>
+  <i class="fa fa-bars icons" aria-hidden="true" (click)="hideSideBar = !hideSideBar"></i>
+  <i class="fa fa-home icons" aria-hidden="true"></i>
+  <i class="fa fa-suitcase icons" aria-hidden="true"></i>
+  <i class="fa fa-calendar icons" aria-hidden="true"></i>
+</div>

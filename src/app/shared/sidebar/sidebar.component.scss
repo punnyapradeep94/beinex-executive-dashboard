@@ -1,0 +1,42 @@
+.sidebar {
+    width: 5%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    border-right: 1px solid #e9edee;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    transition: 0.5s;
+
+    i {
+        margin: 50% 10%;
+        color: #235d6c;
+    }
+}
+
+.hide-sidebar {
+    width: 1%;
+
+    .icons {
+        display: none;
+    }
+}
+
+.expand {
+    font-weight: 700;
+    width: 2em;
+    height: 4%;
+    border-radius: 20px;
+    background-color: #f6fafb;
+    border-right: 1px solid #e9edee;
+
+    i {
+        position: fixed;
+        top: 1%;
+        left: 1%;
+        margin: 0;
+    }
+}

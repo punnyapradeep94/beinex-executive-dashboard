@@ -1,0 +1,23 @@
+<div class="progress-content">
+    <div class="progress-info">
+        <div class="progress mx-auto" data-value='80'>
+            <span class="progress-left">
+                <span class="progress-bar"
+                    [ngStyle]="{'border-color': strokeColor, 'transform' : progressStyle('progress-left')}"></span>
+            </span>
+            <span class="progress-right">
+                <span class="progress-bar"
+                    [ngStyle]="{'border-color': strokeColor, 'transform' : progressStyle('progress-right')}"></span>
+            </span>
+            <div class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
+                <div class="">{{value}}</div>
+            </div>
+        </div>
+        <div class="progress-percentage">
+            {{percentage}}%
+        </div>
+    </div>
+    <div class="progress-context">
+        {{context}}
+    </div>
+</div>
