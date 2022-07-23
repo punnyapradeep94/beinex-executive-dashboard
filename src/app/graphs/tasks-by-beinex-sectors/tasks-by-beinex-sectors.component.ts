@@ -15,28 +15,28 @@ export class TasksByBeinexSectorsComponent implements OnInit {
     let data1 = [
       {
         "Strategic Affairs": 5,
-        Name: "Sach",
+        Name: "1",
         "Healthcare Workforce Sector": 3,
         "Healthcare Facilities Sector": 3,
         "5Support Services": 4
       },
       {
         "Strategic Affairs": 3,
-        Name: "ashish",
+        Name: "2",
         "Healthcare Workforce Sector": 5,
         "Healthcare Facilities Sector": 2,
         "5Support Services": 3
       },
       {
         "Strategic Affairs": 2,
-        Name: "Ashwini",
+        Name: "3",
         "Healthcare Workforce Sector": 2,
         "Healthcare Facilities Sector": 3,
         "5Support Services": 5
       },
       {
         "Strategic Affairs": 2,
-        Name: "Navneet",
+        Name: "4",
         "Healthcare Workforce Sector": 1,
         "Healthcare Facilities Sector": 3,
         "5Support Services": 2
@@ -73,7 +73,7 @@ export class TasksByBeinexSectorsComponent implements OnInit {
         disable: true
       };
     });
-    
+
     let width = 400;
 
     let margin = {
